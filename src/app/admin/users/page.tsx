@@ -226,7 +226,7 @@ export default function UsersTable() {
                                         })
                                     :
                                     <tr className='border-t border-[#EEEEEE] dark:border-strokedark'>
-                                        <td colSpan={table.getHeaderGroups()[0].headers.length} className='text-center px-5 py-4 lg:px-7 2xl:px-11'>No Data</td>
+                                        <td colSpan={table.getHeaderGroups()[0].headers.length} className='text-center px-5 py-4 lg:px-6 2xl:px-10'>No Data</td>
                                     </tr>
                                 }
                             </tbody>
